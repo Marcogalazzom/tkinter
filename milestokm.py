@@ -12,7 +12,7 @@ def convert():
 
 # window
 window = tk.Tk()					
-window.title('Demo')
+window.title('Converter')
 window.geometry('300x150')
 
 # title
