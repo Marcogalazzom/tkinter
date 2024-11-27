@@ -13,6 +13,7 @@ window.title('Tkinter Variables')
 # you can use a start value : tk.StringVar(value = "start value")
 string_var = tk.StringVar()
 stringTwo_var = tk.StringVar(value = "test")
+# stringTwo_var.set('test')
  
 # widgets
 label = ttk.Label(master = window, text = 'label', textvariable = string_var)
